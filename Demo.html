@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./logo.jpg"  type="image/icon type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task02</title>
+    <link rel="apple-touch-icon"
+        href="https://assets10.freshservice.com/assets/logos/touch/touch-icon-iphone-0c6b6485df4f121d8949c27c179353c00390eb78e5e02d878e5894285447c0fd.png">
+</head>
+<body>
+    <div>
+        <h1>Forms</h1>
+        <!-- novalidate  -->
+        <form id="forms" target="_blank" action="./testCases.html"  autocomplete="on" >
+    
+            <label for="name">Name: </label>
+            <input id="name" placeholder="Your Name.." type="text">
+            <br>
+            <label for="email">Email: </label>
+            <input id="email" placeholder="Your Mail.." required type="email" autofocus>
+            <br>
+            <label for="password">Password: </label>
+            <input id="password" placeholder="Your Password.." required type="password">
+                <!-- onclick="alert('Data Entered Successfully')"
+                <input type="button" onclick="funOfAdd()" value="Add User"> -->
+            <br>
+                <button onclick="funOfAdd()">Add User</button>
+            <input type="reset" value="Reset">
+            
+            <br>
+            
+            <label for="country">Country: </label>
+            <br>
+            <!--<select id="country" name="country" multiple> -->
+            <select id="country" name="country" size="2">
+                <option value="egypt" selected>Egypt</option>
+                <option value="palastine">Palastine</option>
+                <option value="china">China</option>
+                <option value="Taiwan">Taiwan</option>
+            </select>
+            <br>
+            <div>
+                <input id="country2" type="radio" name="Country" value="Egypt" checked />
+                <label for="country2">Egypt</label>
+            </div>
+            <div>
+                <input id="Palastine" type="radio" name="Country" value="Palastine" />
+                <label for="Palastine">Palastine</label>
+            </div>
+            <div>
+                <input id="Taiwan" type="radio" name="Country" value="Taiwan" />
+                <label for="Taiwan">Taiwan</label>
+            </div>
+            <div>
+                <input id="China" type="radio" name="Country" value="China" />
+                <label for="China">China</label>
+            </div>
+            <br>
+            <div>
+                <input id="country3" type="checkbox" name="Country3" value="Egypt" checked />
+                <label for="country3">Egypt</label>
+            </div>
+            <div>
+                <input id="Palastine2" type="checkbox" name="Country3" value="Palastine" />
+                <label for="Palastine">Palastine</label>
+            </div>
+            <div>
+                <input id="Taiwan2" type="checkbox" name="Country3" value="Taiwan" />
+                <label for="Taiwan">Taiwan</label>
+            </div>
+            <div>
+                <input id="China2" type="checkbox" name="Country3" value="China" />
+                <label for="China">China</label>
+            </div>
+            <br />
+            <textarea name="" id="" cols="30" rows="7"  spellcheck="true" 
+            placeholder="Enter Your Comment..."></textarea>
+            <br>
+            
+         
+        </form>
+
+    <label>Color</label>
+    <input type="color" name="Color" form="forms">
+    <!--
+    <h1>Tables</h1>
+    <table id="tableData" border="1">
+        <caption>
+            Data of Application Users
+        </caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Safaa</td>
+                <td>safaa-elsayed@elarabygroup.com</td>
+                <td>Safaa123</td>
+            </tr>
+            <tr>
+                <td>Lara</td>
+                <td>lara@elarabygroup.com</td>
+                <td>Lara123</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>ahmed@elarabygroup.com</td>
+                <td>Ahmeed123</td>
+            </tr>
+            <tr>
+                <td>Anas</td>
+                <td>anas@elarabygroup.com</td>
+                <td>Anas123</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+    -->
+    <h1>Frames</h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4RioLFCG3SY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+  
+<script src="./demo.js"></script>
+</body>
+</html>
